@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.d4e42f69.css",
-    "main.js": "/static/js/main.f0f91cef.js",
-    "static/media/unicorn.png": "/static/media/unicorn.064af76c5dbb71b68ee2.png",
-    "index.html": "/index.html",
-    "main.d4e42f69.css.map": "/static/css/main.d4e42f69.css.map",
-    "main.f0f91cef.js.map": "/static/js/main.f0f91cef.js.map"
+    "main.css": "/bebe.github.io/static/css/main.d4e42f69.css",
+    "main.js": "/bebe.github.io/static/js/main.3546bc6f.js",
+    "static/media/unicorn.png": "/bebe.github.io/static/media/unicorn.064af76c5dbb71b68ee2.png",
+    "index.html": "/bebe.github.io/index.html",
+    "main.d4e42f69.css.map": "/bebe.github.io/static/css/main.d4e42f69.css.map",
+    "main.3546bc6f.js.map": "/bebe.github.io/static/js/main.3546bc6f.js.map"
   },
   "entrypoints": [
     "static/css/main.d4e42f69.css",
-    "static/js/main.f0f91cef.js"
+    "static/js/main.3546bc6f.js"
   ]
 }

@@ -57,6 +57,8 @@ const App = () => {
     setFlipped(a);
   }, []);
 
+  const [page, setPage] = useState(0);
+
   return (
     <div className={'appWrapper'}>
       <Header color={assetMapping.colors[color]}></Header>
@@ -67,7 +69,9 @@ const App = () => {
           grabCursor={true}
           modules={[EffectCards]}
           className='mySwiper'
-          onDoubleClick={(swiper, b) => {
+          // initialSlide={new Date().getDate() - 1}
+          initialSlide={new Date().getDate() - 1}
+          onClick={(swiper, b) => {
             setFlipped((prevState) => {
               const tmp = [...prevState];
               tmp![swiper.activeIndex] = !tmp![swiper.activeIndex];

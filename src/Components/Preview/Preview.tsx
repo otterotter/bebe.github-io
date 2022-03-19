@@ -14,7 +14,7 @@ const Preview = (props: PreviewProps) => {
   console.log(isFlipped);
   return (
     <div className={'container'}>
-      {isFlipped && day !== idx && true ? (
+      {isFlipped && day === idx ? (
         <div className='reason'>{reason}</div>
       ) : (
         <>
