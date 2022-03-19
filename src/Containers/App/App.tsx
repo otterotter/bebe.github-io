@@ -19,7 +19,7 @@ const App = () => {
 
   const [flipped, setFlipped] = useState<boolean[]>([]);
   const reasons = [
-    'test',
+    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, debitis',
     '',
     '',
     '',
